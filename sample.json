@@ -1,0 +1,76 @@
+{ 
+  "Lastupdate": "2021.4.28 10:30",
+  "Author": "yuhao@dfgroup.pro",
+  "settingsReloadIntervalMinutes": 15,
+  "fullscreen": true,
+  "autoStart": false,
+  "lazyLoadTabs": false,
+  "websites": [
+    {
+      "url": "https://grafana.matrix.co/d/at-cost-analysis-pod/prod-skywalking?orgId=1&refresh=10s&from=now-6h&to=now",
+      "duration": 17
+    },
+    {
+      "url": "https://grafana.matrix.co/d/dvHFPV9Gk/prod-nginx-ingress-controller?orgId=1&refresh=5s",
+      "duration": 17
+    },
+    {
+      "url": "https://grafana.matrix.co/d/5Gfa849Gz/prod-kubernetes-networking-pod?orgId=1&refresh=10s&var-datasource=matrix-prod-prometheus&var-namespace=matrix-prod&var-pod=All&var-resolution=5m&var-interval=4h&from=now-6h&to=now",
+      "duration": 17
+    },
+    {
+      "url": "https://grafana.matrix.co/d/0UB5w49Mk/prod-kubernetes-compute-resources-namespace-pods?orgId=1&refresh=10s&var-datasource=matrix-prod-prometheus&var-cluster=&var-namespace=matrix-prod",
+      "duration": 17
+    },
+
+    {
+      "url": "https://grafana.matrix.co/d/FDyx8V9Gz/prod-kubernetes-networking-workload?orgId=1&refresh=10s&var-datasource=default&var-namespace=kube-system&var-workload=All&var-type=daemonset&var-resolution=30s&var-interval=4h",
+      "duration": 17
+    },
+
+    {
+      "url": "https://grafana.matrix.co/d/IdyqUV9Gz/prod-kubernetes-networking-namespace-workload?orgId=1&refresh=10s&var-datasource=default&var-namespace=kube-system&var-type=deployment&var-resolution=30s&var-interval=4h&from=now-6h&to=now",
+      "duration": 17
+    },
+    {
+      "url": "https://grafana.matrix.co/d/cTbJ8V9Gz/prod-kubernetes-cluster?orgId=1&refresh=10s&var-datasource=matrix-prod-prometheus&var-cluster=&from=now-6h&to=now",
+      "duration": 17
+    },
+
+    {
+      "url": "https://grafana.matrix.co/d/uR6E0A9Mz/prod-ecs-monitor-copy?orgId=1&from=now-6h&to=now&var-datasource=matrix-prod-prometheus&var-job=node-exporter&var-hostname=All&var-node=10.0.31.174:9100&var-node=10.0.31.175:9100&var-node=10.0.31.176:9100&var-node=10.0.31.177:9100&var-node=10.0.31.178:9100&var-node=10.0.31.179:9100&var-node=10.0.31.180:9100&var-node=10.0.31.181:9100&var-node=10.0.31.207:9100&var-node=10.0.31.208:9100&var-node=10.0.31.209:9100&var-device=All&var-maxmount=%2F&var-show_hostname=me-east-1.10.0.31.174",
+      "duration": 17
+    },
+    {
+      "url": "https://grafana.matrix.co/d/oADnC49Gk/matrix-prod-me?orgId=1",
+      "duration": 17
+    },
+    {
+      "url": "https://grafana.matrix.co/d/a37NCVrGk/elasticsearch?orgId=1&from=now-6h&to=now",
+      "duration": 17
+    },
+    {
+      "url": "https://grafana.matrix.co/d/mv-Nj4rMk/elasticsearch-monitor?orgId=1&refresh=1m&from=now-6h&to=now",
+      "duration": 17
+    },
+    {
+      "url": "https://grafana.matrix.co/d/tbn84IAGz/prod-rds-dashboard?orgId=1&from=now-6h&to=now",
+      "duration": 17
+    },
+    {
+      "url": "https://grafana.matrix.co/d/I9Eoq4rMz/rocketmq-minotor?orgId=1&from=now-6h&to=now&var-datasource=matrix-prod-prometheus&var-cluster=matrix-rocketmq-cluster&var-broker=broker-a",
+      "duration": 17
+    },
+    {
+      "url": "https://grafana.matrix.co/d/H3Va34rMz/nms-monitor?orgId=1&from=now-6h&to=now",
+      "duration": 17
+    },
+    {
+      "url": "https://log.matrix.co/app/kibana#/dashboard/39e16070-e411-11ea-be2d-d79c8188bfbe?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-24h,mode:quick,to:now))&_a=(description:'nginx%20web%20%E7%9B%91%E6%8E%A7',filters:!(),fullScreenMode:!f,options:(darkTheme:!f,hidePanelTitles:!f,useMargins:!t),panels:!((embeddableConfig:(mapCenter:!(-8.407168163601076,-1.7578125000000002),mapZoom:1),gridData:(h:16,i:'1',w:48,x:0,y:0),id:'102a1530-e3c4-11ea-be2d-d79c8188bfbe',panelIndex:'1',type:visualization,version:'6.8.10'),(embeddableConfig:(),gridData:(h:15,i:'2',w:24,x:0,y:16),id:b50131f0-e398-11ea-be2d-d79c8188bfbe,panelIndex:'2',type:visualization,version:'6.8.10'),(embeddableConfig:(),gridData:(h:15,i:'3',w:24,x:0,y:76),id:fbf94eb0-e39a-11ea-be2d-d79c8188bfbe,panelIndex:'3',type:visualization,version:'6.8.10'),(embeddableConfig:(),gridData:(h:15,i:'4',w:24,x:0,y:46),id:'6aaf3b60-e410-11ea-be2d-d79c8188bfbe',panelIndex:'4',type:visualization,version:'6.8.10'),(embeddableConfig:(),gridData:(h:15,i:'5',w:24,x:0,y:31),id:'3816b630-e39b-11ea-be2d-d79c8188bfbe',panelIndex:'5',type:visualization,version:'6.8.10'),(embeddableConfig:(),gridData:(h:15,i:'6',w:24,x:24,y:31),id:'8f00f3d0-e412-11ea-be2d-d79c8188bfbe',panelIndex:'6',type:visualization,version:'6.8.10'),(embeddableConfig:(),gridData:(h:15,i:'7',w:11,x:37,y:76),id:'972caa20-e41e-11ea-be2d-d79c8188bfbe',panelIndex:'7',type:visualization,version:'6.8.10'),(embeddableConfig:(),gridData:(h:15,i:'8',w:13,x:24,y:76),id:'37a5ca80-e420-11ea-be2d-d79c8188bfbe',panelIndex:'8',type:visualization,version:'6.8.10'),(embeddableConfig:(),gridData:(h:15,i:'9',w:24,x:0,y:61),id:'0fcae2f0-e42c-11ea-be2d-d79c8188bfbe',panelIndex:'9',type:visualization,version:'6.8.10'),(embeddableConfig:(),gridData:(h:15,i:'10',w:24,x:24,y:16),id:'91729bd0-e42d-11ea-be2d-d79c8188bfbe',panelIndex:'10',type:visualization,version:'6.8.10'),(embeddableConfig:(),gridData:(h:15,i:'11',w:24,x:24,y:46),id:'8740ace0-e42f-11ea-be2d-d79c8188bfbe',panelIndex:'11',type:visualization,version:'6.8.10'),(embeddableConfig:(),gridData:(h:15,i:'12',w:24,x:24,y:61),id:'5d019b80-885b-11eb-a6ea-f1bfee1e4e16',panelIndex:'12',type:visualization,version:'6.8.10')),query:(language:lucene,query:''),timeRestore:!f,title:'Nginx%20Web%20Monitor',viewMode:view)",
+      "duration": 17
+    }
+
+
+  ]
+}
+
