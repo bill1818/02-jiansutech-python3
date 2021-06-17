@@ -1,0 +1,4 @@
+在chrome 安装Roate  
+
+
+再打开上面的js 文件，可以就查看grafana 监控了
