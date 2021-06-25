@@ -1,0 +1,16 @@
+###Packages
+##   pip install -r requirements.txt
+
+
+xlrd==0.7.1
+xlwt==0.7.2
+bs4==0.0.1
+requests==2.25.0
+lxml==4.6.3
+Django==3.1.3
+Flask==2.0.1
+icon==0.0.5
+psutil==5.8.0
+pygame==2.0.1
+Scrapy==2.5.0
+urllib3==1.26.2
