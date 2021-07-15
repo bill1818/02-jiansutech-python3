@@ -2,3 +2,9 @@
 
 
 再打开上面的js 文件，可以就查看grafana 监控了
+
+
+用浏览器的Roate 加载下面的地址
+
+
+https://github.com/bill1818/02-jiansutech-python3/blob/main/10-grafana-monitor/sample.json
